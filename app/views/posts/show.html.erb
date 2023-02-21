@@ -1,8 +1,13 @@
-<h1><%= @contact["last_name"] %>, <%= @contact["first_name"] %></h1>
+
+
+
+
+
+<h1><%= @post["title"] %></h1>
 
 <ul>
-  <li><%= @contact["email"] %></li>
-  <li><%= @contact["phone_number"] %></li>
+  <li><%= @post["posted_on"] %></li>
+  <li><%= @contact["description"] %></li>
 </ul>
 
-<p><a href="/companies/<%= @company["id"] %>">Back to <%= @company["name"] %></a></p>
+<p><a href="/places">Return to All Places </a></p>

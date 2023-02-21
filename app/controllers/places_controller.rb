@@ -2,6 +2,7 @@ class PlacesController < ApplicationController
 
     def index
         @places = Place.all
+        @posts = Post.all
     end
 
     def show
