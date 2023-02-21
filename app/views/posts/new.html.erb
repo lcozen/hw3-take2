@@ -1,0 +1,9 @@
+<%= form_with :model => @post do |form| %>
+  <p>
+    <%= form.label "description" %>
+    <%= form.text_field "description" %>
+  </p>
+    <%= form.hidden_field "posted_on"%>
+  <%= form.submit %>
+<% end %>
+
